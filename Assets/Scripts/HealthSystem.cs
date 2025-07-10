@@ -83,10 +83,10 @@ public class HealthSystem : MonoBehaviour, IHealth
         });
 
         // Optional scale punch
-        if (useScalePunch)
-        {
-            transform.DOPunchScale(Vector3.one * 0.1f, 0.2f, 10, 1);
-        }
+        //if (useScalePunch)
+        //{
+        //    transform.DOPunchScale(Vector3.one * 0.1f, 0.2f, 10, 1);
+        //}
     }
 
     private void Die()
@@ -99,15 +99,16 @@ public class HealthSystem : MonoBehaviour, IHealth
             rb.bodyType = RigidbodyType2D.Kinematic;
         }
 
+        if (!gameObject.CompareTag("Player"))
+            transform.tag = "Untagged";
         transform.DOMoveY(transform.position.y + 1f, 0.2f).SetEase(Ease.OutQuad).OnComplete(() =>
         {
             transform.DOMoveY(transform.position.y - 5f, 1f).SetEase(Ease.InQuad).OnComplete(() =>
             {
                 Destroy(gameObject);
-                if(gameObject.CompareTag("Player"))
+                if (gameObject.CompareTag("Player"))
                 {
-
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
                 }
             });
         });

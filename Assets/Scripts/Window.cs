@@ -7,16 +7,17 @@ public class Window : MonoBehaviour
     public GameObject lockIcon;
     public bool isLocked;
     Animator anim;
+    bool keyUsed = false;
     private void Awake()
     {
         anim = GetComponent<Animator>();
     }
-    
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            if (KeyManager.Instance.UseKey())
+            if (keyUsed == false && KeyManager.Instance.UseKey())
                 Unlock();
         }
         if (other.gameObject.CompareTag("Player") && !isLocked)
@@ -33,6 +34,7 @@ public class Window : MonoBehaviour
     }
     public void Unlock()
     {
+        keyUsed = true;
         isLocked = false;
         lockIcon.SetActive(false);
     }
