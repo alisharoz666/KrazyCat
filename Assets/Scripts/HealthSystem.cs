@@ -104,7 +104,11 @@ public class HealthSystem : MonoBehaviour, IHealth
             transform.DOMoveY(transform.position.y - 5f, 1f).SetEase(Ease.InQuad).OnComplete(() =>
             {
                 Destroy(gameObject);
+                if(gameObject.CompareTag("Player"))
+                {
+
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                }
             });
         });
     }
