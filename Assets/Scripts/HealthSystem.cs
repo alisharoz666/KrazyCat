@@ -1,5 +1,6 @@
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.SceneManagement;
 
 public class HealthSystem : MonoBehaviour, IHealth
 {
@@ -103,6 +104,7 @@ public class HealthSystem : MonoBehaviour, IHealth
             transform.DOMoveY(transform.position.y - 5f, 1f).SetEase(Ease.InQuad).OnComplete(() =>
             {
                 Destroy(gameObject);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             });
         });
     }
