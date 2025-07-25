@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: da90d272cb0077f4da8663a024f07ad2
+guid: 6540f36a27d8db648b6f76328acf830a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -94,6 +94,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -121,106 +134,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: building inside_0
-      rect:
-        serializedVersion: 2
-        x: 265
-        y: 1996
-        width: 2081
-        height: 3675
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64106ebb1b55ce54899b552f5fa95731
-      internalID: 1150028890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: building inside_1
-      rect:
-        serializedVersion: 2
-        x: 2531
-        y: 2046
-        width: 1813
-        height: 3995
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75b2bd51e1871a944b65aff98e2646fb
-      internalID: -376367127
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: building inside_2
-      rect:
-        serializedVersion: 2
-        x: 4646
-        y: 2130
-        width: 2131
-        height: 3709
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b302e9caf8acd8444995268aba6edec3
-      internalID: 118874367
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: building inside_3
-      rect:
-        serializedVersion: 2
-        x: 6895
-        y: 2096
-        width: 1813
-        height: 3575
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b9bb8b10c54f6445959be8e96eef46b
-      internalID: -771419889
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 943462cc502be2442ad3b885c022bb98
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      building inside_0: 1150028890
-      building inside_1: -376367127
-      building inside_2: 118874367
-      building inside_3: -771419889
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
