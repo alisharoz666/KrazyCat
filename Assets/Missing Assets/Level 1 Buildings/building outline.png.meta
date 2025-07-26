@@ -21,7 +21,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -134,18 +134,216 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: building outline_0
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 25
+        width: 125
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7ea3dab43fea1448d6d9059373efab
+      internalID: 93928577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building outline_1
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 261
+        width: 127
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335e513644eb75045b64f2073fd51a87
+      internalID: 100970217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building outline_2
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 262
+        width: 119
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82060be2f7b55764e939a56e208491f5
+      internalID: 429329043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building outline_3
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 263
+        width: 141
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70ee01c8c4484a40bdb03e0b0f620df
+      internalID: -1088857327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building outline_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 22
+        width: 129
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100efe466e9fa784fa14297a4978d721
+      internalID: -892843820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building outline_5
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 21
+        width: 184
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d721f748554cc4baf9d125533ae1e5
+      internalID: 991287139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building outline_6
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 26
+        width: 164
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3ddb1029f51f9478ff7cfb493b92a8
+      internalID: -1086234087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building outline_7
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 20
+        width: 116
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5e9eae4c64659439d81f109c8ef419
+      internalID: 1262072995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building outline_8
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 8
+        width: 112
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5deaed7cacd964caae42092e10fa2d
+      internalID: 1380670357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 931853328dfded145903817f961551c7
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      building outline_0: 93928577
+      building outline_1: 100970217
+      building outline_2: 429329043
+      building outline_3: -1088857327
+      building outline_4: -892843820
+      building outline_5: 991287139
+      building outline_6: -1086234087
+      building outline_7: 1262072995
+      building outline_8: 1380670357
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -53,6 +53,9 @@ TagManager:
   - name: Building
     uniqueID: 12477925
     locked: 0
+  - name: UpRoom
+    uniqueID: 2230347313
+    locked: 0
   - name: Trees
     uniqueID: 3483618401
     locked: 0

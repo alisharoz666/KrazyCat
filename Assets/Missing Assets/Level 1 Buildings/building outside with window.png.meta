@@ -21,7 +21,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -134,18 +134,216 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: building outside with window_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 67
+        width: 104
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35046bf04ac11574395b7de2ef27986d
+      internalID: 54222698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building outside with window_1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 68
+        width: 94
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46745fecdd67904590c2f966a4bee6b
+      internalID: 1818981288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building outside with window_2
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 69
+        width: 106
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b330eb6ec97625146b4ce25e9b601812
+      internalID: 1329239492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building outside with window_3
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 68
+        width: 90
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8a30c9860e2c14b839383272f8352a
+      internalID: -1991378892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building outside with window_4
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 66
+        width: 89
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57bc4a553c0db641b0da0cd763c72fb
+      internalID: 1212732163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building outside with window_5
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 66
+        width: 80
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbf9a42722ca744cb055623d233feec
+      internalID: 1139532900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building outside with window_6
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 71
+        width: 133
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b08393e268de74b9105c9249b381cd
+      internalID: -772404745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building outside with window_7
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 69
+        width: 84
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3727e93753fd940a404f400362d3f5
+      internalID: 1860992962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building outside with window_8
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 71
+        width: 88
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124fbec5bc989484f82eb6799147f86e
+      internalID: -1217401036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ce0fd550993ca3141892c06d0362f2b9
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      building outside with window_0: 54222698
+      building outside with window_1: 1818981288
+      building outside with window_2: 1329239492
+      building outside with window_3: -1991378892
+      building outside with window_4: 1212732163
+      building outside with window_5: 1139532900
+      building outside with window_6: -772404745
+      building outside with window_7: 1860992962
+      building outside with window_8: -1217401036
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
